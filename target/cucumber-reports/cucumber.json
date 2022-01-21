@@ -1,0 +1,84 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-29T17:07:25.903Z",
+        "line": 4,
+        "name": "Login with valid Username and password",
+        "description": "",
+        "id": "login-into-salesforce-application;login-with-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2570000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the salesforce application",
+            "match": {
+              "location": "com.training.steps.Steps.user_launch_the_salesforce_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the username",
+            "match": {
+              "location": "com.training.steps.Steps.user_enters_the_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the pasword",
+            "match": {
+              "location": "com.training.steps.Steps.user_enters_the_pasword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4723000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on login button",
+            "match": {
+              "location": "com.training.steps.Steps.click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify user succesfully logged in",
+            "match": {
+              "location": "com.training.steps.Steps.verify_user_succesfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into Salesforce application",
+    "description": "",
+    "id": "login-into-salesforce-application",
+    "keyword": "Feature",
+    "uri": "file:resources/features/SalesForceLogin.feature",
+    "tags": []
+  }
+]
